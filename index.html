@@ -133,9 +133,9 @@
 
     </section>
     <section class="portfolio" id="portfolio">
-      <span class='page'>2 | 3</span>
-      <h2 class="font-weight-bold">PORTFOLIO</h2>
-      <h3>Projects</h3>
+      <span class='page section-title'>2 | 3</span>
+      <h2 class="font-weight-bold"><span class='section-title'>PORTFOLIO</span></h2>
+      <h3><span class='section-title'>Projects</span></h3>
       <div class="row">
         <div class="d-flex flex-column flex-xl-row section-desc">
         
@@ -145,14 +145,14 @@
             <img src="./assets/images/business.jpg" class='img-fluid fluid profile' loading='lazy'  alt="Business Logo">
             <i class='bx bxs-cog pending' ></i>
           </div>
-            <h5 class="mb-2 font-weight-bold">Business</h5>
+            <h5 class="mb-2 font-weight-bold">Social Media Website</h5>
             <div class='tech-stacks'>
               <span class='react'>REACTJS</span>
               <span class='firebase'>FIREBASE</span>
               <span class='nodejs'>NODEJS</span>
             </div>
             <p class="term text-justify">
-              Business website where I'll be using React JS as a front end framework and I'll be using NodeJS for the backend and Firebase as a database.
+              Social media website where I'll be using React JS as a front end framework and I'll be using NodeJS for the backend and Firebase as a database.
             </p>
             
           </div>
@@ -199,24 +199,27 @@
       <div class="row">
      <div class="container-fluid skill-graph d-flex 
      flex-column align-items-center text-center">
-     <h3 class="m-3">Tools</h3>
-      <div class="front-end m-3">
-        <h4>Front End</h4>
+     <h3 class="m-3"><span class='section-title'>Tools</span></h3>
+     <h4><span class='section-title'>Front End</span></h4>
+      <div class="front-end m-3 section-desc">
+    
         <i class="bx bxl-html5" data-value="HTML5"></i>
         <i class="bx bxl-css3" data-value="CSS3"></i>
         <i class="bx bxl-bootstrap" data-value="Bootstrap"></i>
         <i class="bx bxl-sass" data-value="SASS"></i>
         <i class="bx bxl-javascript" data-value="JavaScript"></i>
       </div>
-         <div class='fullstack m-3'>
-        <h4>Full Stack</h4>
+      <h4><span class='section-title'>Full Stack</span></h4>
+         <div class='fullstack m-3 section-desc'>
+      
       <i class="bx bxl-react" data-value="React JS"></i>
       <i class="bx bxl-nodejs" data-value="Node JS"></i>
       <i class="bx bxl-mongodb" data-value="MongoDb"></i>
     </div>
 
-    <div class="back-end m-3">
-      <h4>Other Tools</h4>
+    <h4><span class='section-title'>Other Tools</span></h4>
+    <div class="back-end m-3 section-desc">
+    
       <i class="bx bxl-figma" data-value="Figma"></i>
       <i class='bx bxl-heroku' data-value="heroku"></i>
       <i class="bx bxl-git" data-value="Git"></i>
@@ -225,12 +228,12 @@
   </div>
     </section>
     <section class="contact" id="contact">
-      <span class='page'>3 | 3</span>
-      <h2 class="font-weight-bold">CONTACT</h2>
-      <h3 class="font-weight-bold">WANT TO COLLABORATE?</h3>
-      <h4>Socials</h4>
+      <span class='page section-title'>3 | 3</span>
+      <h2 class="font-weight-bold"><span class='section-title'>CONTACT</span></h2>
+      <h3 class="font-weight-bold"><span class='section-title'>WANT TO COLLABORATE?</span></h3>
+      <h4><span class='section-title'>Socials</span></h4>
         <div class="d-flex flex-column flex-xl-row section-desc">
-           <div class="card-container p-5 m-2">
+           <div class="card-container p-5 m-1">
             <h3>Linkedin</h3>
               <a
                 href="https://www.linkedin.com/in/joarppenaflorida/"
@@ -242,7 +245,7 @@
                 <i class="bx bxs-chevron-right hover"></i>
               </p>
           </div>
-          <div class="card-container p-5 m-2">
+          <div class="card-container p-5 m-1">
           <h3>Gmail</h3>
           <a
             href="mailto:joarparrenopenaflorida@gmail.com"
@@ -254,7 +257,7 @@
             <i class="bx bxs-chevron-right hover"></i>
           </p>
         </div>
-          <div class="card-container p-5 m-2">
+          <div class="card-container p-5 m-1">
             <h3>Phone</h3>
             <a href="tel:+639217320661" target="_blank"></a>
             <span>+639217320661</span>
@@ -275,11 +278,12 @@
 
       </div>
       
-        <div class=" d-flex flex-column flex-xl-row align-items-center justify-content-center ">
-          <div class='container-fluid text-light p-3 p-md-5 text-center'>
+        <div class="d-flex flex-md-column flex-row section-desc">
+          <div class='container-fluid m-auto text-light p-3 p-md-5'>
             <div class="p-md-5 d-lg-flex d-block justify-content-center align-items-center"> 
             
-            <form class='rounded p-5 d-md-block col-sm-12 col-md-8 col-xl-4 bg-dark m-auto'>
+            <form class='rounded p-5 d-md-block col-12 col-lg-6 bg-dark'>
+              <h2 class='p-2 text-left'>Contact Me</h2>
               <div class="form-group">
                 <label for="formGroupExampleInput">Name</label>
                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
@@ -297,30 +301,13 @@
                 <label for="exampleFormControlTextarea1">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"> </textarea>
               </div>
-              <button type="button" data-toggle='modal' data-target='#modal' class="btn btn-dark mb-2">Send Email</button>
+              <button type="button" data-toggle='modal' data-target='#modal' class="btn btn-light mb-2 font-weight-bold">Send Email</button>
             </form>
           </div>
-          <div class="modal" id='modal' tabindex="-1">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Thank you for contacting us!</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-center p-0">
-                  <p class='m-2'>Message Successfully Sent</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
-        <div class="container-fluid">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.2807188801453!2d122.6339074!3d10.9421547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33af19649add649b%3A0xb726631ba62a41fc!2s55%20R.%20Y.%20Ladrido%20St%2C%20Pototan%2C%20Iloilo!5e0!3m2!1sen!2sph!4v1660156778880!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+        <div class="container-fluid m-auto d-none col-12 col-lg-6 d-md-block text-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.2807188801453!2d122.6339074!3d10.9421547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33af19649add649b%3A0xb726631ba62a41fc!2s55%20R.%20Y.%20Ladrido%20St%2C%20Pototan%2C%20Iloilo!5e0!3m2!1sen!2sph!4v1660156778880!5m2!1sen!2sph" class='rounded' width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
         </div>
       </div>
     </section>
@@ -329,7 +316,26 @@
     </footer>
 
    
+    
+  </div>
 
+  <div class="modal" id='modal' tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content text-dark">
+        <div class="modal-header">
+          <h5 class="modal-title">Thank you for contacting me!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center p-0">
+          <p class='m-2'>Message Successfully Sent</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

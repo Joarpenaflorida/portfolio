@@ -23,10 +23,10 @@ body {
   color: #111;
 }
 iframe {
-  width: 80%;
-  height: 500px;
+  height: auto;
   filter: invert(90%);
 }
+
 .skill-graph i {
   position: relative;
   transition: transform 0.3s ease-in-out;
@@ -208,8 +208,14 @@ section .section-title::before {
   border-radius: 4px;
   letter-spacing: 1px;
 }
+.logo {
+  transition: transform 0.4s ease-in-out;
+}
+.logo:active,
+.logo:hover {
+  transform: scale(1.1);
+}
 section .section-desc {
-  color: #a8a8a8;
   transform: translateY(100px);
   opacity: 0;
   transition: 2.4s ease-out;
